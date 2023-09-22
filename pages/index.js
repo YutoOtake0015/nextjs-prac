@@ -27,7 +27,7 @@ export default function Home({ allPostsData }) {
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <p>ブログです。</p>
+          <p>JavaScriptを学習中です。</p>
         </section>
 
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
@@ -40,6 +40,8 @@ export default function Home({ allPostsData }) {
                     src={`${thumbnail}`}
                     className={styles.thumbnailImage}
                     alt="画像"
+                    width={500}
+                    height={500}
                   />
                 </Link>
                 <Link href="/" className={utilStyles.boldText}>
