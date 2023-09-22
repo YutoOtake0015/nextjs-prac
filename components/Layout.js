@@ -20,6 +20,8 @@ function Layout({ children, home }) {
               alt="画像"
               src="/images/profile.jpg"
               className={`${utilStyles.borderCircle} ${styles.headerHomeImage}`}
+              width={500}
+              height={500}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
@@ -29,6 +31,8 @@ function Layout({ children, home }) {
               alt="画像"
               src="/images/profile.jpg"
               className={`${utilStyles.borderCircle} ${styles.headerImage}`}
+              width={500}
+              height={500}
             />
             <h1 className={utilStyles.heading2Xl}>{name}</h1>
           </>
